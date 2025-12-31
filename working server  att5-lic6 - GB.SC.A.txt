@@ -1,0 +1,21 @@
+working server : att5-lic6 - GB.SC.Aberdeen.4.BrightSolid - 10.84.12.201
+UKI02-LM15 - GB.ENG.London.4.IBMCloud - 172.22.12.129
+
+Issue server : UKI02-LM03 - GB.ENG.London.4.IBMCloud - 172.22.3.241
+
+C:\Windows\system32>tracert 10.84.12.247
+
+Tracing route to 10.84.12.247 over a maximum of 30 hops
+
+  1    <1 ms    <1 ms    <1 ms  172.22.3.1
+  2    <1 ms    <1 ms    <1 ms  100.64.160.0
+  3     1 ms    <1 ms    <1 ms  10.164.251.82
+  4     3 ms     2 ms     2 ms  e-gbslg-ld5-s-cor-01-intf [172.23.3.64]
+  5     2 ms     2 ms     1 ms  e-gbslg-ld5-r-wan-01-intf [172.23.3.65]
+  6    14 ms    15 ms    14 ms  172.24.9.73
+  7    14 ms    14 ms    14 ms  172.24.9.45
+  8    14 ms    14 ms    15 ms  172.24.9.41
+  9    14 ms    15 ms    14 ms  10.84.0.126
+ 10    14 ms    14 ms    14 ms  10.84.0.62
+ 11    15 ms    14 ms    14 ms  100.64.224.1
+ 12    15 ms    15 ms    14 ms  10.84.12.247
